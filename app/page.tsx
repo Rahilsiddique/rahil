@@ -1,16 +1,10 @@
-import Link from 'next/link'
 import getPostMetadata from '../components/getPostMetadata'
+import PostPreview from '../components/PostPreview'
 
 const page = () => {
   const postMetadata = getPostMetadata()
   const postPreviews = postMetadata.map(post => (
-    <div>
-      <Link href={`posts/${post.slug}`}>
-      <h2>{post.title}</h2>
-      </Link>
-      <p>{post.subtitle}</p>
-      <p>{post.date}</p>
-    </div>
+    <PostPreview {...post} key={post.slug}/>
   ))
   return (
     <div>{postPreviews}</div>
