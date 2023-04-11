@@ -7,7 +7,7 @@ const page = () => {
     <PostPreview {...post} key={post.slug}/>
   ))
   return (
-    <div>{postPreviews}</div>
+    <main>{postPreviews}</main>
   )
 }
 

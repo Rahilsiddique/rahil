@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Navbar from "../components/Navbar";
 import '../styles/global.css'
+import Header from "../components/UI/common/Header/Header";
 
 export const metadata = {
   title: "Next.js",
@@ -16,9 +17,7 @@ export default function RootLayout({
     <html lang="en">
       <head />
       <body>
-        <Link href="/">
-          <Navbar />
-        </Link>
+        <Header />
         {children}
         <div className="text-xl font-bold">this foot</div>
       </body>
