@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer{
+    .layout{
+        @apply mx-auto w-[86%] max-w-2xl md:w-full;
+    }
+}

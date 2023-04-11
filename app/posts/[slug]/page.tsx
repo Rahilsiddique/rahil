@@ -1,7 +1,7 @@
 import fs from 'fs'
 import matter from 'gray-matter'
 import Markdown from 'markdown-to-jsx'
-import getPostMetadata from '../../../components/getPostMetadata'
+import getPostMetadata from '../../../libs/getPostMetadata'
 
 const getPostContent = (slug: string) => {
     const folder = './posts'
