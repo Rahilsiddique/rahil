@@ -1,8 +1,12 @@
+"use client";
+import { usePathname } from "next/navigation";
 import { APP_ROUTE } from "../../../../libs/constants/routes";
 import { twclsx } from "../../../../libs/twclsx";
 import { UnstyledLink } from "../../links";
 
 const Header = () => {
+  console.log(typeof usePathname().toString());
+
   return (
     <header className={twclsx(``)}>
       <nav>
@@ -10,7 +14,12 @@ const Header = () => {
           {APP_ROUTE.map(route => {
             return (
               <UnstyledLink
-                className={twclsx("font-semibold border-b-2 border-dashed")}
+                className={twclsx(
+                  "font-semibold border-b-2 border-dashed",
+                  usePathname().toString() === route.path
+                    ? "border-theme-800"
+                    : "border-transparent"
+                )}
                 href={route.path}
                 key={route.path}
               >

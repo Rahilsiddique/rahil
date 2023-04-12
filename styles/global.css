@@ -6,8 +6,11 @@
   html {
     @apply flex flex-col justify-center items-center bg-[#171717];
   }
+  body {
+    @apply antialiased bg-theme-50 font-primary text-theme-700 dark:bg-theme-900 dark:text-theme-200;
+  }
   .layout {
-    @apply flex flex-col justify-center w-full md:max-w-screen-sm;
+    @apply mx-auto w-[86%] max-w-2xl md:w-full;
   }
   h1 {
     @apply text-3xl font-bold text-theme-800 dark:text-theme-100 md:text-4xl;
