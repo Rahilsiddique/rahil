@@ -1,3 +1,5 @@
+import colors from "tailwindcss/colors";
+import { fontFamily } from "tailwindcss/defaultTheme";
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -9,7 +11,13 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx,mdx}"
   ],
   theme: {
-    extend: {}
+    extend: {
+      colors: {
+        primary: colors.blue,
+        ternary: colors.teal,
+        theme: colors.neutral
+      }
+    }
   },
   plugins: []
 };

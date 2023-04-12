@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <header className={twclsx(``)}>
       <nav>
-        <div className="flex gap-5">
+        <div className="flex gap-5 text-white">
           {APP_ROUTE.map(route => {
             return (
               <UnstyledLink

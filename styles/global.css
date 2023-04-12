@@ -2,8 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer{
-    .layout{
-        @apply mx-auto w-[86%] max-w-2xl md:w-full;
-    }
+@layer base {
+  html {
+    @apply flex flex-col justify-center items-center bg-[#171717];
+  }
+  .layout {
+    @apply flex flex-col justify-center w-full md:max-w-screen-sm;
+  }
+  h1 {
+    @apply text-3xl font-bold text-theme-800 dark:text-theme-100 md:text-4xl;
+  }
+
+  h2 {
+    @apply text-2xl font-bold text-theme-800 dark:text-theme-100 md:text-3xl;
+  }
+
+  h3 {
+    @apply text-lg font-bold text-theme-800 dark:text-theme-100 md:text-xl;
+  }
+
+  h4 {
+    @apply font-bold text-theme-800 dark:text-theme-100 md:text-lg;
+  }
+
+  h5 {
+    @apply font-bold text-theme-800 dark:text-theme-100 md:text-lg;
+  }
 }
