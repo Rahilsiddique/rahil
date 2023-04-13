@@ -5,8 +5,6 @@ import { twclsx } from "../../../../libs/twclsx";
 import { UnstyledLink } from "../../links";
 
 const Header = () => {
-  console.log(typeof usePathname().toString());
-
   return (
     <header className={twclsx(``)}>
       <nav>
@@ -15,9 +13,9 @@ const Header = () => {
             return (
               <UnstyledLink
                 className={twclsx(
-                  "font-semibold border-b-2 border-dashed",
+                  "font-semibold border-b-4 border-dashed",
                   usePathname().toString() === route.path
-                    ? "border-theme-800"
+                    ? "border-white"
                     : "border-transparent"
                 )}
                 href={route.path}

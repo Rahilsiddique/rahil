@@ -1,8 +1,19 @@
+import PostPreview from "../../components/PostPreview";
+import getPostMetadata from "../../libs/getPostMetadata";
+
 const page = () => {
+  const postMetadata = getPostMetadata();
+
+  const postPreviews = postMetadata.map(post =>
+    <PostPreview {...post} key={post.slug} />
+  );
+
   return (
     <main>
-      <h2>Blog </h2>
-      <h4>All my blogs will go here</h4>
+      <h4>My blogs</h4>
+      <div>
+        {postPreviews}
+      </div>
     </main>
   );
 };

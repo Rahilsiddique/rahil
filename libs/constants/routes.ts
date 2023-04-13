@@ -1,40 +1,40 @@
 export const APP_ROUTE = [
   {
-    path: '/',
-    name: 'Home'
+    path: "/",
+    name: "Home"
   },
   {
-    path: '/blog',
-    name: 'Blog'
+    path: "/blog",
+    name: "Blog"
   },
   {
-    path: '/portfolio',
-    name: 'Portfolio'
+    path: "/portfolio",
+    name: "Portfolio"
   },
   {
-    path: '/guestbook',
-    name: 'Guestbook'
+    path: "/resume",
+    name: "Resume"
   }
-]
+];
 
 export const ADDT_ROUTE = [
   {
-    path: '/tags',
-    name: 'Tags'
+    path: "/tags",
+    name: "Tags"
   },
   {
-    path: '/snippet',
-    name: 'Snippet'
+    path: "/snippet",
+    name: "Snippet"
   },
   {
-    path: '/resume',
-    name: 'Resume'
+    path: "/guestbook",
+    name: "Guestbook"
   },
 
   {
-    path: '/certificate',
-    name: 'Certificate'
+    path: "/certificate",
+    name: "Certificate"
   }
-]
+];
 
-export default APP_ROUTE
+export default APP_ROUTE;

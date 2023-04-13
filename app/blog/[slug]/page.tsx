@@ -4,7 +4,7 @@ import Markdown from "markdown-to-jsx";
 import getPostMetadata from "../../../libs/getPostMetadata";
 
 const getPostContent = (slug: string) => {
-  const folder = "./posts";
+  const folder = "./components/content/posts";
   const file = `${folder}/${slug}.md`;
   const content = fs.readFileSync(file, "utf8");
   const matterResult = matter(content);
