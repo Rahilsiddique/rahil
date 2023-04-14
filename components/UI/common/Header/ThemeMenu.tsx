@@ -1,5 +1,4 @@
 import { Spinner } from '../Spinner'
-
 import { Menu, Transition } from '@headlessui/react'
 import { Fragment } from 'react'
 import { HiCheck, HiDesktopComputer, HiOutlineMoon as Moon, HiOutlineSun as Sun } from 'react-icons/hi'
@@ -34,7 +33,7 @@ const ThemeMenu: React.FunctionComponent = () => {
       </UnstyledButton>
     )
   }
-
+  
   return (
     <Menu as='div' className='relative z-40'>
       <Menu.Button

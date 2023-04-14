@@ -1,4 +1,3 @@
-"use client";
 import { useTheme as useNextTheme } from "next-themes";
 import { useCallback, useEffect, useState } from "react";
 

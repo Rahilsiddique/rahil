@@ -26,8 +26,6 @@ const route: RouteType[] = APP_ROUTE.map(r => ({
   icon: icon[r.name.toLowerCase()]
 }));
 
-console.log(route);
-
 export const MobileNav: React.FunctionComponent = () => {
   return (
     <Menu as="div" className="relative z-40 block md:hidden">
