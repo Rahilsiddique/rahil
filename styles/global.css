@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 @layer base {
-  html {
-    @apply flex flex-col justify-center items-center bg-[#171717];
+  html.dark {
+    @apply brightness-[0.98];
   }
   body {
     @apply antialiased bg-theme-50 font-primary text-theme-700 dark:bg-theme-900 dark:text-theme-200;
@@ -30,5 +30,16 @@
 
   h5 {
     @apply font-bold text-theme-800 dark:text-theme-100 md:text-lg;
+  }
+  :is(a, button) {
+    @apply outline-none;
+  }
+
+  :is(a, button) {
+    @apply transition-all outline-none ring-primary-500 ring-offset-1 ring-offset-theme-50 focus-visible:ring dark:ring-primary-400 dark:ring-offset-theme-900;
+  }
+
+  .accessible {
+    @apply transition-all duration-150 ring-primary-400 hover:ring dark:ring-theme-600;
   }
 }
