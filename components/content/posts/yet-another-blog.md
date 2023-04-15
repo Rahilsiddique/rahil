@@ -8,3 +8,8 @@ In this blog we are going to see how to make a blog website using next 13,
 with the recent upadate in next.js they have replaced there file structure and made few changes 
 in this blog you will able to catch up with all the things they have added while also making a 
 nice blog website for yourself
+
+```
+const yeah = 'damn'
+console.log(yeah)
+```

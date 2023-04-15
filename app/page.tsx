@@ -7,13 +7,13 @@ const page: NextPage = () => {
     <main>
       <div>
         <Pattern />
-        <h1>Rahil Siddique</h1>
-        <div className="flex flex-wrap justify-between">
-          <h2 className="text-xl font-bold text-transparent max-w-max mb-7 md:text-2xl bg-clip-text bg-gradient-to-r from-primary-500 to-ternary-500 dark:text-transparent">
-            Student &amp; Frontend Developer
-          </h2>
+        <div className="flex flex-wrap justify-between pt-2">
+          <h1>Rahil Siddique</h1>
           <SocialHome />
         </div>
+        <h2 className="text-xl font-bold text-transparent max-w-max mb-7 md:text-2xl bg-clip-text bg-gradient-to-r from-primary-500 to-ternary-500 dark:text-transparent">
+          Student &amp; Frontend Developer
+        </h2>
       </div>
     </main>
   );
