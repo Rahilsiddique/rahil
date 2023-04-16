@@ -16,8 +16,8 @@ const getPortfolioMetadata = (): postMetadata[] => {
       title: matterResult.data.title,
       date: matterResult.data.date,
       subtitle: matterResult.data.subtitle,
-      slug: fileName.replace(".md", ""),
-      previewImage: matterResult.data.imgPreview
+      previewImage: matterResult.data.imgPreview,
+      slug: fileName.replace(".md", "")
     };
   });
   return posts;

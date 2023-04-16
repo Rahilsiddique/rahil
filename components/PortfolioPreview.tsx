@@ -1,12 +1,22 @@
+/* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 import { portfolioMetadata } from "../types/index";
-import Image from "next/image";
+import { WrappedImage } from "./UI/images/WrappedImage";
 
 const PortfolioPreview = (props: portfolioMetadata) => {
   return (
     <div key={props.slug}>
-      <div>
-        {/* <img src={`/../public/resume-builder.png`} alt="png" /> */}
+      <div className="w-full my-4">
+        <WrappedImage
+          src={"/../public/" + props.previewImg}
+          alt="img"
+          className="object-cover w-full rounded-md"
+          parentStyle="w-full h-44 rounded-md"
+          loading="lazy"
+          placeholder="blur"
+          blurDataURL="/blur.svg"
+          fill
+        />
       </div>
       <Link href={`portfolio/${props.slug}`}>
         <h3 className="hover:underline hover:decoration-ternary-500 decoration-dashed underline-offset-4">

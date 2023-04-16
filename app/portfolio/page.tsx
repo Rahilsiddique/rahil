@@ -3,9 +3,14 @@ import getPortfolioMetadata from "../../libs/getPortfolioMetadata";
 
 const page = () => {
   const postMetadata = getPortfolioMetadata();
+  console.log(postMetadata);
 
   const portfolioPreview = postMetadata.map(post =>
-    <PortfolioPreview {...post} key={post.slug} />
+    <PortfolioPreview
+      previewImg={"sorting-visualizer.png"}
+      {...post}
+      key={post.slug}
+    />
   );
 
   return (
@@ -13,7 +18,9 @@ const page = () => {
       <div>
         <h1>portfolio</h1>
       </div>
-      {portfolioPreview}
+      <div className="grid gap-5 md:grid-cols-2">
+        {portfolioPreview}
+      </div>
     </div>
   );
 };
