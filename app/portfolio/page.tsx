@@ -6,11 +6,7 @@ const page = () => {
   console.log(postMetadata);
 
   const portfolioPreview = postMetadata.map(post =>
-    <PortfolioPreview
-      previewImg={"sorting-visualizer.png"}
-      {...post}
-      key={post.slug}
-    />
+    <PortfolioPreview {...post} key={post.slug} />
   );
 
   return (

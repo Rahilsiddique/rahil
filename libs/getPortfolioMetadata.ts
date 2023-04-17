@@ -1,8 +1,8 @@
 import fs from "fs";
-import { postMetadata } from "../types";
 import matter from "gray-matter";
+import { portfolioMetadata } from "../types";
 
-const getPortfolioMetadata = (): postMetadata[] => {
+const getPortfolioMetadata = (): portfolioMetadata[] => {
   const folder = "components/content/portfolio";
   const files = fs.readdirSync(folder);
   const markdownPosts = files.filter(file => file.endsWith(".md"));
@@ -16,7 +16,7 @@ const getPortfolioMetadata = (): postMetadata[] => {
       title: matterResult.data.title,
       date: matterResult.data.date,
       subtitle: matterResult.data.subtitle,
-      previewImage: matterResult.data.imgPreview,
+      previewImg: matterResult.data.imgPreview,
       slug: fileName.replace(".md", "")
     };
   });
