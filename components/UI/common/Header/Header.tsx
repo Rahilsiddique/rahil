@@ -21,7 +21,7 @@ const Header = () => {
       )}
     >
       <nav className="flex items-center justify-end h-16 layout md:justify-between md:h-20">
-        <div className="hidden gap-5 space-x-3 text-white md:flex md:items-center">
+        <div className="hidden gap-1 space-x-3 text-white md:flex md:items-center">
           {APP_ROUTE.map(route => {
             return (
               <UnstyledLink

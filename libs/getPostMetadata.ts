@@ -12,11 +12,13 @@ const getPostMetadata = (): postMetadata[] => {
       "utf8"
     );
     const matterResult = matter(fileContent);
+
     return {
       title: matterResult.data.title,
       date: matterResult.data.date,
       subtitle: matterResult.data.subtitle,
-      slug: fileName.replace(".md", "")
+      slug: fileName.replace(".md", ""),
+      tags: matterResult.data.tags.map((e: any) => e)
     };
   });
   return posts;

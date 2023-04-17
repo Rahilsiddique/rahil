@@ -3,6 +3,7 @@ export interface postMetadata {
   subtitle: string;
   date: string;
   slug: string;
+  tags: string[];
 }
 
 export interface portfolioMetadata {

@@ -31,7 +31,7 @@ const PostPage = (props: any) => {
   return (
     <div className="flex flex-col gap-4 pb-4">
       <div className="pb-2 border-b border-theme-600">
-        <div className="text-5xl font-bold">
+        <div className="py-4 text-5xl font-bold">
           {post.data.title}
         </div>
         <div className="flex justify-between">

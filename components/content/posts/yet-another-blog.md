@@ -1,7 +1,8 @@
 ---
 title: "how to make blog in next.js 13"
 subtitle: "how to make blazingly fast blogs using next.js 13"
-date: "2023-10-4"
+date: "2023-10-04"
+tags: ['blog','front-end','next.js']
 ---
 
 In this blog we are going to see how to make a blog website using next 13,

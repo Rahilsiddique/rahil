@@ -5,7 +5,7 @@ import SocialHome from "./SocialHome";
 const Footer = () => {
   return (
     <>
-    <footer className="pt-4 border-t md:flex md:justify-between border-theme-600">
+    <footer className="pt-4 mt-4 border-t md:flex md:justify-between border-theme-600">
       <div className="flex flex-col w-full space-y-3 md:flex-row md:space-x-3 md:space-y-0 md:max-w-max">
         {APP_ROUTE.map(route =>
           <UnstyledLink
