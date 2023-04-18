@@ -1,4 +1,5 @@
 import PortfolioPreview from "../../components/PortfolioPreview";
+import UnderLine from "../../components/UI/common/UnderLine";
 import getPortfolioMetadata from "../../libs/getPortfolioMetadata";
 
 const page = () => {
@@ -14,6 +15,7 @@ const page = () => {
       <div>
         <h1>portfolio</h1>
       </div>
+      <UnderLine />
       <div className="grid gap-5 md:grid-cols-2">
         {portfolioPreview}
       </div>
