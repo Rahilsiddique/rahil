@@ -7,7 +7,7 @@ const PostPreview = (props: postMetadata) => {
     <div key={props.slug}>
       <Link href={`blog/${props.slug}`}>
         <h3>
-          <span className="hover:underline hover:decoration-sky-500 decoration-dashed underline-offset-4">
+          <span className="hover:underline hover:decoration-theme-100 decoration-dashed underline-offset-4">
             {props.title}
           </span>
         </h3>

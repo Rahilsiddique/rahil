@@ -1,7 +1,5 @@
 const Pattern = () => {
-  return (
-    <div className="h-56 bg-gradient-to-br from-primary-500 to-ternary-500" />
-  );
+  return <div className="h-40 pattern" />;
 };
 
 export default Pattern;
