@@ -1,4 +1,4 @@
-import PostPreview from "../../components/PostPreview";
+import PostPreview from "../../components/UI/preview/PostPreview";
 import UnderLine from "../../components/UI/common/UnderLine";
 import getPostMetadata from "../../libs/getPostMetadata";
 

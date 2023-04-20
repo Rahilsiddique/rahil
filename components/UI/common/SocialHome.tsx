@@ -1,5 +1,4 @@
 import { FaGithubSquare, FaLinkedin, FaTwitterSquare } from "react-icons/fa";
-import { SiGmail } from "react-icons/si";
 const SocialHome = () => {
   return (
     <div className="flex gap-5 py-2">

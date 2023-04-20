@@ -1,6 +1,6 @@
 import Link from "next/link";
-import { portfolioMetadata } from "../types/index";
-import { WrappedImage } from "./UI/images/WrappedImage";
+import { portfolioMetadata } from "../../../types/index";
+import { WrappedImage } from "../images/WrappedImage";
 
 const PortfolioPreview = (props: portfolioMetadata) => {
   return (

@@ -1,6 +1,6 @@
 import Link from "next/link";
-import { postMetadata } from "../types/index";
-import Tag from "./UI/common/Tag";
+import { postMetadata } from "../../../types/index";
+import Tag from "../common/Tag";
 
 const PostPreview = (props: postMetadata) => {
   return (

@@ -1,4 +1,4 @@
-import PortfolioPreview from "../../components/PortfolioPreview";
+import PortfolioPreview from "../../components/UI/preview/PortfolioPreview";
 import UnderLine from "../../components/UI/common/UnderLine";
 import getPortfolioMetadata from "../../libs/getPortfolioMetadata";
 
