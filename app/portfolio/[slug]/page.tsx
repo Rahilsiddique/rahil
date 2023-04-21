@@ -36,7 +36,7 @@ const PortfolioPage = (props: any) => {
           {post.data.title}
         </div>
         <WrappedImage
-          src={"/../public/" + post.data.imgPreview}
+          src={"/" + post.data.imgPreview}
           alt="img"
           className="object-cover w-full rounded-md"
           parentStyle="w-full h-80 rounded-md"

@@ -7,7 +7,7 @@ const PortfolioPreview = (props: portfolioMetadata) => {
     <div key={props.slug}>
       <div className="w-full my-4">
         <WrappedImage
-          src={"/../public/" + props.previewImg}
+          src={"/" + props.previewImg}
           alt="img"
           className="object-cover w-full rounded-md"
           parentStyle="w-full h-44 rounded-md"
