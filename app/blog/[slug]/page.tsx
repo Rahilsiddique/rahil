@@ -42,7 +42,7 @@ const PostPage = (props: any) => {
         </div>
       </div>
       <div className="bp-4">
-        <Markdown>
+        <Markdown options={{ forceBlock: true, wrapper: "article" }}>
           {post.content}
         </Markdown>
       </div>

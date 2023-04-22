@@ -51,6 +51,6 @@
       linear-gradient(315deg, black 25%, gray 25%);
     background-position: 19px 0, 19px 0, 0 0, 0 0;
     background-size: 40px 40px;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
   }
 }

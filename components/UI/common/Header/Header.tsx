@@ -21,14 +21,14 @@ const Header = () => {
       )}
     >
       <nav className="flex items-center justify-end h-16 layout md:justify-between md:h-20">
-        <div className="hidden gap-1 space-x-3 text-white md:flex md:items-center">
+        <div className="hidden gap-1 space-x-3 dark:text-white md:flex md:items-center">
           {APP_ROUTE.map(route => {
             return (
               <UnstyledLink
                 className={twclsx(
                   "font-semibold border-b-2 border-dashed",
                   usePathname().toString() === route.path
-                    ? "border-white"
+                    ? "dark:border-white border-black"
                     : "border-transparent"
                 )}
                 href={route.path}
