@@ -10,7 +10,7 @@ const Title = ({ titleInfo }: any) => {
         {titleInfo.links.map((link: any, i: number) =>
           <li
             key={i}
-            className="font-bold border-b-2 border-dashed text-primary-500 hover:border-theme-800"
+            className="text-lg font-bold text-primary-500 hover:underline dark:hover:decoration-theme-100 hover:decoration-theme-900 decoration-dashed underline-offset-4"
           >
             <a href={String(Object.values(link))} target="_blank">
               {Object.keys(link)}

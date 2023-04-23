@@ -1,6 +1,6 @@
 
 import type { ImageProps } from 'next/image'
-import NextImage from 'next/image'
+import Image from 'next/image'
 import { twclsx } from '../../libs/twclsx'
 
 type WrappedImageProps = ImageProps & {
@@ -10,12 +10,12 @@ type WrappedImageProps = ImageProps & {
 
 export const WrappedImage: React.FunctionComponent<WrappedImageProps> = ({ parentStyle, ...props }) => {
   if (!props.fill) {
-    return <NextImage {...props} />
+    return <Image {...props} />
   }
 
   return (
     <figure className={twclsx('relative', parentStyle)}>
-      <NextImage {...props} placeholder='blur' blurDataURL='/blur.svg' sizes='(max-width: 768px) 100%' />
+      <Image {...props} placeholder='blur' blurDataURL='/blur.svg' sizes='(max-width: 768px) 100%' />
     </figure>
   )
 }

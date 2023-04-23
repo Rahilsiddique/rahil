@@ -1,5 +1,6 @@
 import "../../styles/global.css";
 import { Metadata } from "next";
+import { Providers } from "../providers";
 
 export const metadata: Metadata = {
   title: "Rahil Siddique",
@@ -19,9 +20,11 @@ export default function RootLayout({
         <link rel="icon" href="/favicon.ico" />
       </head>
       <body>
-        <div className="layout">
-          {children}
-        </div>
+        <Providers>
+          <div className="layout">
+            {children}
+          </div>
+        </Providers>
       </body>
     </html>
   );
