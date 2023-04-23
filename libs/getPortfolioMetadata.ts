@@ -3,12 +3,12 @@ import matter from "gray-matter";
 import { portfolioMetadata } from "../types";
 
 const getPortfolioMetadata = (): portfolioMetadata[] => {
-  const folder = "components/content/portfolio";
+  const folder = "content/portfolio";
   const files = fs.readdirSync(folder);
   const markdownPosts = files.filter(file => file.endsWith(".md"));
   const posts = markdownPosts.map(fileName => {
     const fileContent = fs.readFileSync(
-      `components/content/portfolio/${fileName}`,
+      `content/portfolio/${fileName}`,
       "utf8"
     );
     const matterResult = matter(fileContent);

@@ -1,0 +1,111 @@
+{
+  "title": {
+    "name": "Rahil Siddique",
+    "links": [
+      { "linkedin": "https://www.linkedin.com/in/rahilsiddique/" },
+      { "github": "https://github.com/Rahilsiddique" },
+      { "twitter": "https://twitter.com/Rahil1900" },
+      { "website": "https://rahil-eta.vercel.app/" }
+    ]
+  },
+  "education": [
+    {
+      "institueName": "Thakur College of Engineering and Technology",
+      "score": "9.3",
+      "courseName": "Bachlore of Computer Engineering",
+      "time": "2020-2024"
+    },
+    {
+      "institueName": "Mithibai College",
+      "score": "82%",
+      "courseName": "HSC",
+      "time": "2018-2020"
+    }
+  ],
+  "experience": [
+    {
+      "position": "Front-end Engineering intern",
+      "companyName": "UdyogYantra",
+      "time": "jan 2022 - mar 2022",
+      "type": "Remote",
+      "points": [
+        "Created many tools for the company such as annotation tools etc with the help of React",
+        "Worked on the User forms used in Resoee.com",
+        "{Worked on complex front-end logic , making the UI more modular and dynamic",
+        "Integrated several APIs with the Front end side of the platform"
+      ]
+    },
+    {
+      "position": "Front-end Engineering intern",
+      "companyName": "UdyogYantra",
+      "time": "jan 2022 - mar 2022",
+      "type": "Remote",
+      "points": [
+        "Created many tools for the company such as annotation tools etc with the help of React",
+        "Worked on the User forms used in Resoee.com",
+        "{Worked on complex front-end logic , making the UI more modular and dynamic",
+        "Integrated several APIs with the Front end side of the platform"
+      ]
+    },
+    {
+      "position": "Front-end Engineering intern",
+      "companyName": "UdyogYantra",
+      "time": "jan 2022 - mar 2022",
+      "type": "Remote",
+      "points": [
+        "Created many tools for the company such as annotation tools etc with the help of React",
+        "Worked on the User forms used in Resoee.com",
+        "{Worked on complex front-end logic , making the UI more modular and dynamic",
+        "Integrated several APIs with the Front end side of the platform"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "projectName": "Resume-Builder",
+      "projectStack": ["react", "JavaScript", "CSS modules", "vercel"],
+      "time": "june 2022",
+      "points": [
+        "Developed a Resume builder website with react front-end, where user can create and download resume",
+        "Styled the whole front-end with CSS modules",
+        "Easy to use, and completely open source"
+      ],
+      "links": [
+        "https://github.com/Rahilsiddique/resume-builder",
+        "https://resume-builder-two-xi.vercel.app/"
+      ]
+    },
+    {
+      "projectName": "Resume-Builder",
+      "projectStack": ["react", "JavaScript", "CSS modules", "vercel"],
+      "time": "june 2022",
+      "points": [
+        "Developed a Resume builder website with react front-end, where user can create and download resume",
+        "Styled the whole front-end with CSS modules",
+        "Easy to use, and completely open source"
+      ],
+      "links": [
+        "https://github.com/Rahilsiddique/resume-builder",
+        "https://resume-builder-two-xi.vercel.app/"
+      ]
+    },
+    {
+      "projectName": "Resume-Builder",
+      "projectStack": ["react", "JavaScript", "CSS modules", "vercel"],
+      "time": "june 2022",
+      "points": [
+        "Developed a Resume builder website with react front-end, where user can create and download resume",
+        "Styled the whole front-end with CSS modules",
+        "Easy to use, and completely open source"
+      ],
+      "links": [
+        "https://github.com/Rahilsiddique/resume-builder",
+        "https://resume-builder-two-xi.vercel.app/"
+      ]
+    }
+  ],
+  "skills": {
+    "languages": ["Java", "JavaScript", "TypeScript", "HTML", "CSS"],
+    "framework": ["react", "next", "tailwind"]
+  }
+}
