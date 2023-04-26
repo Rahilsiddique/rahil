@@ -1,9 +1,10 @@
-import Title from "./Title";
+import Title from "../../../components/resume/Title";
 import data from "../../../content/resume.json";
-import Education from "./Education";
-import Experience from "./Experience";
-import Projects from "./Projects";
-import Skills from "./Skills";
+import Education from "../../../components/resume/Education";
+import Experience from "../../../components/resume/Experience";
+import Projects from "../../../components/resume/Projects";
+import Skills from "../../../components/resume/Skills";
+
 import { NextPage } from "next";
 
 const page: NextPage = () => {

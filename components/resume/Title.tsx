@@ -1,6 +1,6 @@
 const Title = ({ titleInfo }: any) => {
   return (
-    <div className="pb-2">
+    <div className="pb-2 w-[100%]">
       <div className="text-center">
         <h1>
           {titleInfo.name}

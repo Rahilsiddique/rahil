@@ -1,9 +1,4 @@
-import UnderLine from "../../../components/common/UnderLine";
-
 const Education = ({ eduInfo }: any) => {
-  console.log(Object.keys(eduInfo));
-  console.log(eduInfo);
-
   return (
     <div className="pb-2">
       <p className="text-xl">Education</p>
