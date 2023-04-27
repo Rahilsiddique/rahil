@@ -1,6 +1,4 @@
 const Experience = ({ expInfo }: any) => {
-  console.log(expInfo);
-
   return (
     <div className="pb-2">
       <p className="text-xl">Experience</p>

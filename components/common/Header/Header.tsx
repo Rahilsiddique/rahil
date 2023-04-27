@@ -1,11 +1,12 @@
 "use client";
 import { usePathname } from "next/navigation";
+import { motion } from "framer-motion";
 import { APP_ROUTE } from "../../../libs/constants/routes";
 import { twclsx } from "../../../libs/twclsx";
-import { UnstyledLink } from "../../links";
 import { useWindowScrollY } from "../../../hooks/useWindowsScrollY";
 import { MobileNav } from "./MobileNav";
 import ThemeMenu from "./ThemeMenu";
+import Link from "next/link";
 
 const Header = () => {
   const y = useWindowScrollY();
@@ -24,18 +25,17 @@ const Header = () => {
         <div className="hidden gap-1 space-x-3 dark:text-white md:flex md:items-center">
           {APP_ROUTE.map(route => {
             return (
-              <UnstyledLink
-                className={twclsx(
-                  "font-semibold border-b-2 border-dashed",
-                  usePathname().toString() === route.path
-                    ? "dark:border-white border-black"
-                    : "border-transparent"
-                )}
-                href={route.path}
-                key={route.path}
-              >
+              <Link href={route.path} className="relative">
+                {usePathname().toString() === route.path
+                  ? <motion.span
+                      layoutId="underline"
+                      className={twclsx(
+                        "absolute left-0 top-full w-full block border-b-2 border-dashed"
+                      )}
+                    />
+                  : null}
                 {route.name}
-              </UnstyledLink>
+              </Link>
             );
           })}
         </div>

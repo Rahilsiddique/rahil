@@ -1,6 +1,4 @@
 const Skills = ({ skills }: any) => {
-  console.log(Object.keys(skills));
-
   return (
     <div>
       <p className="text-xl">Technical Skills</p>
