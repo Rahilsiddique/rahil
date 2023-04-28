@@ -1,6 +1,6 @@
 import "../../styles/global.css";
 import { Metadata } from "next";
-import { Providers } from "../providers";
+import { Providers } from "../(providers)/providers";
 
 export const metadata: Metadata = {
   title: "Rahils' resume",

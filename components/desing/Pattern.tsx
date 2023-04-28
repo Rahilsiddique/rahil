@@ -1,5 +1,6 @@
+"use client";
 const Pattern = () => {
-  return <div className="h-40 pattern" />;
+  return <div className="pattern" />;
 };
 
 export default Pattern;

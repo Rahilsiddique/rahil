@@ -1,7 +1,7 @@
 import "../../styles/global.css";
 import Header from "../../components/common/Header/Header";
 import Footer from "../../components/common/Footer";
-import { Providers } from "../providers";
+import { Providers } from "../(providers)/providers";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
