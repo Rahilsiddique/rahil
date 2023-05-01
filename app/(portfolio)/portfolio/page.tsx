@@ -5,7 +5,6 @@ import PageWrapper from "../../(providers)/PageWrapper";
 
 const page = () => {
   const postMetadata = getPortfolioMetadata();
-  console.log(postMetadata);
 
   const portfolioPreview = postMetadata.map(post =>
     <PortfolioPreview {...post} key={post.slug} />
