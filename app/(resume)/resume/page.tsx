@@ -7,7 +7,6 @@ import Projects from "../../../components/resume/Projects";
 import Skills from "../../../components/resume/Skills";
 
 import { NextPage } from "next";
-// import { useRouter } from "next/navigation";
 
 const page: NextPage = () => {
   // const router = useRouter();
