@@ -1,6 +1,6 @@
 import fs from "fs";
 import matter from "gray-matter";
-import getPortfolioMetadata from "../../../../libs/getPortfolioMetadata";
+import getPortfolioMetadata from "../../../../libs/Metadata/getPortfolioMetadata";
 import Markdown from "markdown-to-jsx";
 import { WrappedImage } from "../../../../components/images/WrappedImage";
 import { BsGithub } from "react-icons/bs";

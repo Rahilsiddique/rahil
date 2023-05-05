@@ -1,6 +1,6 @@
 import PostPreview from "../../../components/preview/PostPreview";
 import UnderLine from "../../../components/common/UnderLine";
-import getPostMetadata from "../../../libs/getPostMetadata";
+import getPostMetadata from "../../../libs/Metadata/getPostMetadata";
 import PageWrapper from "../../(providers)/PageWrapper";
 
 const page = () => {

@@ -1,6 +1,6 @@
 import PortfolioPreview from "../../../components/preview/PortfolioPreview";
 import UnderLine from "../../../components/common/UnderLine";
-import getPortfolioMetadata from "../../../libs/getPortfolioMetadata";
+import getPortfolioMetadata from "../../../libs/Metadata/getPortfolioMetadata";
 import PageWrapper from "../../(providers)/PageWrapper";
 
 const page = () => {
