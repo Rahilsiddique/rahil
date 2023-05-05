@@ -30,7 +30,7 @@ const Header = () => {
                   ? <motion.span
                       layoutId="underline"
                       className={twclsx(
-                        "absolute left-0 top-full w-full block border-b-2 border-dashed"
+                        "absolute left-0 top-full w-full block border-b-2 border-dashed border-theme-700 dark:border-white"
                       )}
                     />
                   : null}
