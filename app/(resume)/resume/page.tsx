@@ -9,11 +9,8 @@ import Skills from "../../../components/resume/Skills";
 import { NextPage } from "next";
 
 const page: NextPage = () => {
-  // const router = useRouter();
-
   return (
     <div className="pt-5 pb-10 dark:bg-theme-900">
-      {/* <button onClick={() => router.back()}>go back</button> */}
       <Title titleInfo={data.title} />
       <Education eduInfo={data.education} />
       <Experience expInfo={data.experience} />

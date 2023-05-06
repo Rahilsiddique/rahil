@@ -17,7 +17,7 @@ const Footer = () => {
           </UnstyledLink>
         )}
       </div>
-      <div className="flex flex-col w-full space-y-3 md:flex-row md:space-x-3 md:space-y-0 md:max-w-max">
+      {/* <div className="flex flex-col w-full space-y-3 md:flex-row md:space-x-3 md:space-y-0 md:max-w-max">
         {ADDT_ROUTE.map(route =>
           <UnstyledLink
             href={route.path}
@@ -27,7 +27,7 @@ const Footer = () => {
             {route.name}
           </UnstyledLink>
         )}
-      </div>
+      </div> */}
     </footer>
     <SocialHome />
     </>
