@@ -9,6 +9,8 @@ import matter from "gray-matter";
 const page: NextPage = () => {
   const intro = getIntroMetadata();
   const content = matter(intro.slug);
+  console.log(content.content);
+
   return (
     <PageWrapper>
       <main>
@@ -23,7 +25,7 @@ const page: NextPage = () => {
           <h2 className="text-xl font-bold text-transparent max-w-max mb-7 md:text-2xl bg-clip-text bg-gradient-to-r from-primary-500 to-ternary-500 dark:text-transparent">
             {intro.title}
           </h2>
-          <Markdown options={{ forceBlock: true, wrapper: "article" }}>
+          <Markdown className="text-base prose lg:text-xl dark:prose-invert">
             {content.content}
           </Markdown>
         </div>
