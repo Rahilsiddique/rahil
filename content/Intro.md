@@ -11,6 +11,9 @@ My name is Rahil Siddique, I am an undergrad Engineering student currently in my
 <h2>
 My Tech Stack 🧑‍💻 <br>
 </h2>
+<ul>
+    <li>HTML</li>
+</ul>
 </article>
 
 
