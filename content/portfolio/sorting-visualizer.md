@@ -7,14 +7,9 @@ imgPreview: 'sorting-visualizer.png'
 techStack: ['react','typescript','vercel','css']
 date: '1/10/2022'
 ---
-<font size="4">
-Sorting.Visualizer is a web app for visualizing a bunch of different sorting algorithms Like  📊 <br>
+Sorting Visualizer is a web app for visualizing a bunch of different sorting algorithms Like  📊 
 <br>
-</font>
-
 ## Algorithms to visualize:
-<br>
-
 - Insertion Sort.
 - Merge Sort.
 - Quick Sort.

@@ -8,18 +8,10 @@ techStack: ['react','vercel','css']
 date: '1/10/2022'
 ---
 
-<font size="4">
-Resume Builder as the name suggest is used to create simple and effective resume
-with modern template and easy to use UI 🌵 <br>
-<br>
-just fill the form and download the resume with a click of a button 📠
-</font>
-<br>
-<br>
+Resume Builder as the name suggest is used to create simple and effective resume with a modern template and easy-to-use UI 🌵 <br><br> Just fill out the form and download the resume with a click of a button 📠
 ## Features:
-<br>
 - Simple UI
 - Downloadable Resume 
-- Responsive Design
-- customizalbe 
+- Responsive Design 
+- customizable 
 

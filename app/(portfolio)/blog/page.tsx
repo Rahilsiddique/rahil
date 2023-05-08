@@ -16,7 +16,7 @@ const page = () => {
         <h1>Blog</h1>
         <p className="text-base text-justify">
           All the blogs that I have written can be found here, mostly I'll try
-          to put here all the cool tips and trics in frontend development and my
+          to put here all the cool tips and triks in frontend development and my
           learnings and experiments or rather anything whcih seems cool to me
         </p>
         <UnderLine />

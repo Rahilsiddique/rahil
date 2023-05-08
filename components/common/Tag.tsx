@@ -1,6 +1,8 @@
-const Tag = ({ tagString }: any) => {
+import clsx from "clsx";
+
+const Tag = ({ tagString, className }: any) => {
   return (
-    <div className={`px-1 rounded-sm bg-theme-500`}>
+    <div className={clsx(`px-1 rounded-sm bg-theme-500 ${className}`)}>
       {tagString}
     </div>
   );

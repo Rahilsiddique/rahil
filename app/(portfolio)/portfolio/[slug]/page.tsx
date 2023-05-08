@@ -6,6 +6,8 @@ import { WrappedImage } from "../../../../components/images/WrappedImage";
 import { BsGithub } from "react-icons/bs";
 import { BiGlobe } from "react-icons/bi";
 import Tag from "../../../../components/common/Tag";
+import Link from "next/link";
+import { AiOutlineCaretLeft } from "react-icons/ai";
 
 const getPortfolioContent = (slug: string) => {
   const folder = "content/portfolio";
@@ -34,18 +36,24 @@ const PortfolioPage = (props: any) => {
   });
   return (
     <div className="flex flex-col gap-4 pb-4">
+      <Link
+        href="/portfolio"
+        className="flex items-center hover:underline underline-offset-4"
+      >
+        <AiOutlineCaretLeft size={20} />go back
+      </Link>
       <div className="flex flex-col gap-5 pb-2 border-b border-theme-600">
         <div className="text-5xl font-bold">
           {post.data.title}
         </div>
         <div className="flex gap-4">
-          <div className="flex items-center justify-center gap-2 text-xl font-light cursor-pointer">
+          <div className="flex items-center justify-center gap-2 text-xl font-light cursor-pointer hover:text-ternary-500">
             <a href={post.data.githubLink} target="_blank">
               github
             </a>
             <BsGithub />{" "}
           </div>
-          <div className="flex items-center justify-center gap-2 text-xl font-light cursor-pointer">
+          <div className="flex items-center justify-center gap-2 text-xl font-light cursor-pointer hover:text-primary-500">
             <a href={post.data.lineLink} target="_blank">
               github
             </a>{" "}
@@ -64,7 +72,7 @@ const PortfolioPage = (props: any) => {
         />
         <div className="flex justify-between">
           <div className="flex gap-3 text-base">
-            {post.data.techStack.map((tech: any) => <Tag tagString={tech} />)}
+            {/* {post.data.techStack.map((tech: any) => <Tag tagString={tech} />)} */}
           </div>
           <div className="text-base">
             {date}
@@ -72,7 +80,7 @@ const PortfolioPage = (props: any) => {
         </div>
       </div>
       <div className="bp-4">
-        <Markdown>
+        <Markdown className="text-base prose text-justify xl:prose-xl dark:prose-invert lg:text-2xl">
           {post.content}
         </Markdown>
       </div>
