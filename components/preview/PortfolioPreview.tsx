@@ -19,7 +19,7 @@ const PortfolioPreview = (props: portfolioMetadata) => {
       </div>
       <Link href={`portfolio/${props.slug}`}>
         <h3>
-          <span className="hover:underline hover:decoration-ternary-500 decoration-dashed underline-offset-4">
+          <span className="hover:underline dark:hover:decoration-white hover:decoration-black decoration-dashed underline-offset-4">
             {props.title}
           </span>
         </h3>

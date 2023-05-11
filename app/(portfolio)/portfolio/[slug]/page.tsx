@@ -5,7 +5,6 @@ import Markdown from "markdown-to-jsx";
 import { WrappedImage } from "../../../../components/images/WrappedImage";
 import { BsGithub } from "react-icons/bs";
 import { BiGlobe } from "react-icons/bi";
-import Tag from "../../../../components/common/Tag";
 import Link from "next/link";
 import { AiOutlineCaretLeft } from "react-icons/ai";
 
@@ -55,7 +54,7 @@ const PortfolioPage = (props: any) => {
           </div>
           <div className="flex items-center justify-center gap-2 text-xl font-light cursor-pointer hover:text-primary-500">
             <a href={post.data.lineLink} target="_blank">
-              github
+              live link
             </a>{" "}
             <BiGlobe />{" "}
           </div>

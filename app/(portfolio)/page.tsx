@@ -9,7 +9,6 @@ import matter from "gray-matter";
 const page: NextPage = () => {
   const intro = getIntroMetadata();
   const content = matter(intro.slug);
-  console.log(content.content);
 
   return (
     <PageWrapper>

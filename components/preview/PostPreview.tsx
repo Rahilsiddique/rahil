@@ -20,9 +20,9 @@ const PostPreview = (props: postMetadata) => {
           {props.date}
         </p>
       </div>
-      <div className="flex gap-2">
+      {/* <div className="flex gap-2">
         {props.tags.map(e => <Tag tagString={e} />)}
-      </div>
+      </div> */}
     </div>
   );
 };
