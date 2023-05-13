@@ -7,14 +7,8 @@ My name is Rahil Siddique, I am an undergrad Engineering student currently in my
 ## My Tech Stack 🧑‍💻 
 - I mostly do Frontend Development with **React/Next + JavaScript**, though some of my recent projects  include **TypeScript** as well 
 - For *Styling* I use **Tailwind css/vanilla css** 
-<!-- <br><small>(this website 🤫)</small><br> -->
 
 ## Things that I am learning right now 📕
 
 - Typescript 
 - Next.js 
-
-    
-
-
-

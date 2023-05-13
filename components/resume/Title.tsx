@@ -6,7 +6,7 @@ const Title = ({ titleInfo }: any) => {
           {titleInfo.name}
         </h1>
       </div>
-      <ul className="flex justify-center gap-10">
+      <ul className="flex justify-center gap-4 md:gap-10">
         {titleInfo.links.map((link: any, i: number) =>
           <li
             key={i}

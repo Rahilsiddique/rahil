@@ -1,28 +1,27 @@
 import Link from "next/link";
 import { postMetadata } from "../../types/index";
-import Tag from "../common/Tag";
 
 const PostPreview = (props: postMetadata) => {
   return (
-    <div key={props.slug}>
+    <div
+      key={props.slug}
+      className="px-2 py-1 transition ease-in-out rounded-lg hover:dark:bg-[#313131] hover:bg-primary-100 hover:-translate-y-1 cursor-pointer"
+    >
       <Link href={`blog/${props.slug}`}>
         <h3>
-          <span className="hover:underline dark:hover:decoration-theme-100 hover:decoration-theme-900 decoration-dashed underline-offset-4">
+          <span className="">
             {props.title}
           </span>
         </h3>
       </Link>
-      <div className="flex justify-between">
-        <p>
+      <div className="flex flex-wrap justify-between">
+        <span>
           {props.subtitle}
-        </p>
-        <p>
+        </span>
+        <span>
           {props.date}
-        </p>
+        </span>
       </div>
-      {/* <div className="flex gap-2">
-        {props.tags.map(e => <Tag tagString={e} />)}
-      </div> */}
     </div>
   );
 };

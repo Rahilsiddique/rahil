@@ -12,15 +12,15 @@ const page = () => {
 
   return (
     <PageWrapper>
-      <main className="flex flex-col gap-4">
-        <h1>Blog</h1>
+      <main className="flex flex-col gap-2">
+        <h1>Blogs 📚</h1>
         <p className="text-base text-justify">
           All the blogs that I have written can be found here, mostly I'll try
           to put here all the cool tips and triks in frontend development and my
-          learnings and experiments or rather anything whcih seems cool to me
+          learnings and experiments or rather anything which seems cool to me
         </p>
         <UnderLine />
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-2">
           {postPreviews}
         </div>
       </main>

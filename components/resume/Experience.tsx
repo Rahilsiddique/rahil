@@ -6,7 +6,7 @@ const Experience = ({ expInfo }: any) => {
       <div className="flex flex-col gap-2">
         {expInfo.map((edu: any) =>
           <div className="pl-4">
-            <div className="flex justify-between">
+            <div className="flex flex-wrap justify-between">
               <div className="font-bold">
                 {edu.position}
               </div>

@@ -4,7 +4,7 @@ const Skills = ({ skills }: any) => {
       <p className="text-xl">Technical Skills</p>
       <div className="underLine" />
       <div className="pl-4">
-        <div className="flex items-center gap-3 font-bold">
+        <div className="flex flex-wrap items-center gap-3 font-bold">
           {Object.keys(skills)[0]}:{skills.languages.map(
             (language: string | undefined) =>
               <div className="flex gap-3 text-sm font-normal">
