@@ -19,7 +19,7 @@ export default function RootLayout({
       <head>
         <title>Rahil Siddique</title>
         <meta content="width=device-width, initial-scale=1" name="viewport" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/rahil.png" />
       </head>
       <body>
         <Providers>
