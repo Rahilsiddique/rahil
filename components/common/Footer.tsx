@@ -30,6 +30,7 @@ const Footer = () => {
       </div> */}
     </footer>
     <SocialHome />
+    <span className="flex justify-center text-gray-600">&copy; 2023 rahil-eta.vercel.app. All rights reserved.</span>
     </>
   );
 };
