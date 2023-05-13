@@ -1,4 +1,4 @@
-## My Personal Portfolio website built with Next.js, Typescript and Tailwind css
+# Portfolio website
 
 ## Tech stack, libraries: 
 - Next.js 13 
