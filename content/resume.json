@@ -36,27 +36,25 @@
       ]
     },
     {
-      "position": "Front-end Engineering intern",
-      "companyName": "UdyogYantra",
-      "time": "jan 2022 - mar 2022",
+      "position": "Technical Member",
+      "companyName": "Cerritus Coders",
+      "time": "Aug 2022 - present",
       "type": "Remote",
       "points": [
-        "Created many tools for the company such as annotation tools etc with the help of React",
-        "Worked on the User forms used in Resoee.com",
-        "{Worked on complex front-end logic , making the UI more modular and dynamic",
-        "Integrated several APIs with the Front end side of the platform"
+        "Created the Community website using next.js and typescript",
+        "Made the website responsive across different screen sizes",
+        "Assisted in designing and creating of community meetup a website with html javascript and Tailwind CSS",
+        "Managed Open source projects"
       ]
     },
     {
-      "position": "Front-end Engineering intern",
-      "companyName": "UdyogYantra",
-      "time": "jan 2022 - mar 2022",
+      "position": "Front-end Team Member",
+      "companyName": "TCET",
+      "time": "mar 2023 - present",
       "type": "Remote",
       "points": [
-        "Created many tools for the company such as annotation tools etc with the help of React",
-        "Worked on the User forms used in Resoee.com",
-        "{Worked on complex front-end logic , making the UI more modular and dynamic",
-        "Integrated several APIs with the Front end side of the platform"
+        "Recreating TCET-tnp Official Website using Astro and React with TypeScript",
+        "Created components for TCET open-source website"
       ]
     }
   ],
@@ -76,23 +74,23 @@
       ]
     },
     {
-      "projectName": "Resume-Builder",
-      "projectStack": ["react", "JavaScript", "CSS modules", "vercel"],
-      "time": "june 2022",
+      "projectName": "Sorting Visualizer",
+      "projectStack": ["react", "TypeScript", "tailwindcss", "vercel"],
+      "time": "Dec 2022",
       "points": [
-        "Developed a Resume builder website with react front-end, where user can create and download resume",
-        "Styled the whole front-end with CSS modules",
-        "Easy to use, and completely open source"
+        "Developed using React and TypeScript, Sorting visualizer allows user to visualize different sorting algorithms",
+        "Control the size of the array and time of sorting using slide bars",
+        "Styled with tailwind CSS, and fully mobile responsive"
       ],
       "links": [
-        "https://github.com/Rahilsiddique/resume-builder",
-        "https://resume-builder-two-xi.vercel.app/"
+        "https://github.com/Rahilsiddique/sorting-visualizer",
+        "http://sorting-visualizer-nine-murex.vercel.app/"
       ]
     },
     {
-      "projectName": "Resume-Builder",
-      "projectStack": ["react", "JavaScript", "CSS modules", "vercel"],
-      "time": "june 2022",
+      "projectName": "Portfoli website",
+      "projectStack": ["Next", "TypeScript", "tailwindcss", "vercel"],
+      "time": "may 2023",
       "points": [
         "Developed a Resume builder website with react front-end, where user can create and download resume",
         "Styled the whole front-end with CSS modules",
