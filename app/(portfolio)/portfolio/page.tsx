@@ -14,7 +14,7 @@ const page = () => {
     <PageWrapper>
       <div>
         <div>
-          <h1>portfolio</h1>
+          <h1>portfolio 👨‍💻</h1>
         </div>
         <UnderLine />
         <div className="grid gap-5 md:grid-cols-2">
